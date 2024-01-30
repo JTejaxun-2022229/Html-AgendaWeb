@@ -1,20 +1,67 @@
-body{
-    
-    background: radial-gradient(circle, rgba(255,116,15,1) 0%, rgba(235,193,94,1) 100%);
+body {
+
+    background: radial-gradient(circle, rgba(255, 116, 15, 1) 0%, rgba(235, 193, 94, 1) 100%);
     justify-content: space-around;
 }
 
-.contenido{
+.encabezado{
 
     background-color: #000;
     border-radius: 25px;
     margin: 60px;
-    width: 400px;
 }
 
-.titulo{
+.titulo {
 
     margin: 35px;
+    margin-left: 0;
     color: #fff;
-    font-size: 50px;
+    font-size: 3em;
+    text-align: center;
+    align-items: center;
+}
+
+.contactos{
+
+    background-color: #000;
+    border-radius: 25px;
+    margin: 60px;
+}
+
+.aContactos{
+
+    background-color: #000;
+    border-radius: 25px;
+    margin: 60px;
+}
+
+.fContactos{
+
+    background-color: #000;
+    border-radius: 25px;
+    margin: 60px;
+}
+
+.paginas {
+
+    background-color: #000;
+    border-radius: 25px;
+    margin: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.paginas h1{
+    color: #fff;
+    font-size: 25px;
+    margin-top: -10px;
+}
+
+.paginas img {
+    margin: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
