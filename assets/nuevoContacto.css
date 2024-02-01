@@ -4,6 +4,83 @@ body {
     justify-content: space-around;
 }
 
+.encabezado{
+
+    background-color: #000;
+    border-radius: 25px;
+    margin: 60px;
+}
+
+.titulo {
+
+    margin: 35px;
+    margin-left: 0;
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+    align-items: center;
+}
+
+.agregar{
+    background-color: #000;
+    border-radius: 25px;
+    margin: 60px;
+}
+
+.agregar h2{
+
+    color: #fff;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+}
+
+.foto img{
+
+    height: 210px;
+    width: 210px;
+    margin: 10px;
+}
+
+.datos{
+    display: block;
+    justify-content: center;
+}
+
+.formulario{
+    align-items: center;
+    text-align: center;
+}
+
+.formulario div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+}
+
+.botones button{
+    border-radius: 30px;
+    margin: 35px;
+    background: rgba(0, 0, 0, 0.1);
+    border-color: rgba(0, 0, 0, 0.1);
+    color: #fff;
+    font-size: 25px;
+}
+
+.botones button:hover{
+    background-color: grey;
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
 .paginas {
 
     background-color: #000;
