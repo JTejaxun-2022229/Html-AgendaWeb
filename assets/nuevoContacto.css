@@ -75,6 +75,11 @@ body {
     justify-content: center;
 }
 
+.botones a{
+    color: #fff;
+    text-decoration: none;
+}
+
 .botones button{
     border-radius: 30px;
     margin: 35px;
