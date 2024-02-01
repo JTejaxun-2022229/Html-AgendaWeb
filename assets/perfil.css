@@ -4,6 +4,23 @@ body {
     justify-content: space-around;
 }
 
+.encabezado{
+
+    background-color: #000;
+    border-radius: 25px;
+    margin: 60px;
+}
+
+.titulo {
+
+    margin: 35px;
+    margin-left: 0;
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+    align-items: center;
+}
+
 .paginas {
 
     background-color: #000;
