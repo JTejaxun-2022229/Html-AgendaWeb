@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,72 @@
     <link rel="stylesheet" href="favorito.css">
     <title>Agenda:Favoritos</title>
 </head>
+
 <body>
+    <section class="encabezado">
+        <div class="titulo">
+            <h1>Favoritos:</h1>
+        </div>
+    </section>
+    <section class="favorito">
+        <div class="contacto">
+            <div class="superior">
+                <img src="./../resource/luis.png">
+                <h1>Luis Armando</h1>
+                <div class="opciones">
+                    <button>Quitar de favoritos</button>
+                    <button onclick="mostrar();">Información</button>
+                </div>
+            </div>
+            <div id="detalles" class="detalles">
+                <div class="primero">
+                    <h2>Nombre(s):</h2>
+                    <h2>Luis Armando</h2>
+                    <h2>Apellidos(s):</h2>
+                    <h2>Reyes Oron</h2>
+                </div>
+                <div class="segundo">
+                    <h2>Teléfono:</h2>
+                    <h2>+502 4757 0661</h2>
+                    <h2>Correo:</h2>
+                    <h2>.</h2>
+                </div>
+                <div class="tercero">
+                    <h2>Descripción:</h2>
+                    <h2>.</h2>
+                    <h2 class="espacio">.</h2>
+                    <button onclick="ocultar()">Ocultar</button>
+                </div>
+            </div>
+            <div class="superior">
+                <img src="./../resource/manuel.png">
+                <h1>José Manuel</h1>
+                <div class="opciones">
+                    <button>Quitar de favoritos</button>
+                    <button onclick="mostrar1();">Información</button>
+                </div>
+            </div>
+            <div id="detalles1" class="detalles">
+                <div class="primero">
+                    <h2>Nombre(s):</h2>
+                    <h2>José Manuel</h2>
+                    <h2>Apellidos(s):</h2>
+                    <h2>Suarez Serrano</h2>
+                </div>
+                <div class="segundo">
+                    <h2>Teléfono:</h2>
+                    <h2>+502 34679628</h2>
+                    <h2>Correo:</h2>
+                    <h2>.</h2>
+                </div>
+                <div class="tercero">
+                    <h2>Descripción:</h2>
+                    <h2>.</h2>
+                    <h2 class="espacio">.</h2>
+                    <button onclick="ocultar1();">Ocultar</button>
+                </div>
+            </div>
+    </section>
     <footer class="paginas">
         <div>
             <a href="contacto.html">
@@ -46,5 +112,7 @@
             <h1>Cerrar Sesion</h1>
         </div>
     </footer>
+    <script src="favorito.js"></script>
 </body>
+
 </html>
