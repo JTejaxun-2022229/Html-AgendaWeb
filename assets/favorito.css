@@ -63,6 +63,10 @@ body {
     text-align: justify;
 }
 
+.superior{
+    justify-content: space-around;
+}
+
 .superior img{
 
     margin: 25px;
@@ -86,10 +90,10 @@ body {
 }
 
 .detalles{
-    padding-bottom: 50px;
+    justify-content: space-around;
+    padding-bottom: 25px;
     font-size: 25px;
     margin: 30px;
-    padding-bottom: 50px;
     display: none;
     background-color: rgba(63, 63, 63, 0.253);
     border-radius: 30px;
@@ -98,7 +102,6 @@ body {
 .tercero button{
     color:#fff;
     font-size: 20px;
-    margin: 15px;
     background: rgba(0,0,0,0.1);
     border-color: rgba(0,0,0,0.1);
 }
