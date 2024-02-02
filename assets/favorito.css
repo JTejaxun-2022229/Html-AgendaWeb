@@ -9,6 +9,7 @@ body {
     background-color: #000;
     border-radius: 25px;
     margin: 60px;
+    box-shadow: 15px 15px 15px 1px rgba(0, 0, 0, 0.6);
 }
 
 .titulo {
@@ -26,6 +27,7 @@ body {
     border-radius: 25px;
     margin: 60px;
     color:#fff;
+    box-shadow: 15px 15px 15px 1px rgba(0, 0, 0, 0.6);
 }
 
 .superior{
@@ -116,6 +118,7 @@ body {
 
 .paginas {
     background-color: #000;
+    box-shadow: 15px 15px 15px 1px rgba(0, 0, 0, 0.6);
     border-radius: 25px;
     margin: 60px;
     display: flex;
