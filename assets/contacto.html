@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="short cut icon" href="./../resource/agenda.png" type="image/x-icon">
+    <link rel="stylesheet" href="contacto.css">
+    <title>Agenda:Contactos</title>
+</head>
+
+<body>
+    <section class="encabezado">
+        <div class="titulo">
+            <h1>Contactos:</h1>
+        </div>
+    </section>
+    <section class="contactos">
+        <div class="contacto">
+            <div class="superior">
+                <img src="./../resource/sebastian.png">
+                <h1>Sebastian</h1>
+                <div class="opciones">
+                    <button>Agregar a favoritos</button>
+                    <button onclick="mostrar();">Información</button>
+                </div>
+            </div>
+            <div id="detalles" class="detalles">
+                <div class="primero">
+                    <h2>Nombre(s):</h2>
+                    <h2>Sebastian</h2>
+                    <h2>Apellidos(s):</h2>
+                    <h2>Ramirez Giron</h2>
+                </div>
+                <div class="segundo">
+                    <h2>Teléfono:</h2>
+                    <h2>+502 5527 1322</h2>
+                    <h2>Correo:</h2>
+                    <h2>sramirez-2022506@kinal.edu.gt</h2>
+                </div>
+                <div class="tercero">
+                    <h2>Descripción:</h2>
+                    <h2>HOLA</h2>
+                    <h2 class="espacio">.</h2>
+                    <button onclick="ocultar();">Ocultar</button>
+                </div>
+            </div>
+            <div class="superior">
+                <img src="./../resource/omar.png">
+                <h1>Omar Emiliani</h1>
+                <div class="opciones">
+                    <button>Agregar a favoritos</button>
+                    <button onclick="mostrar1();">Información</button>
+                </div>
+            </div>
+            <div id="detalles1" class="detalles">
+                <div class="primero">
+                    <h2>Nombre(s):</h2>
+                    <h2>Omar Emiliani</h2>
+                    <h2>Apellidos(s):</h2>
+                    <h2>Sanchez Mendoza</h2>
+                </div>
+                <div class="segundo">
+                    <h2>Teléfono:</h2>
+                    <h2>+502 4284 4189</h2>
+                    <h2>Correo:</h2>
+                    <h2>osanchez-2019490@kinal.edu.gt</h2>
+                </div>
+                <div class="tercero">
+                    <h2>Descripción:</h2>
+                    <h2>:b</h2>
+                    <h2 class="espacio">.</h2>
+                    <button onclick="ocultar1();">Ocultar</button>
+                </div>
+            </div>
+            <div class="superior">
+                <img src="./../resource/auky.png">
+                <h1>Auky Daniel</h1>
+                <div class="opciones">
+                    <button>Agregar a favoritos</button>
+                    <button onclick="mostrar2();">Información</button>
+                </div>
+            </div>
+            <div id="detalles2" class="detalles">
+                <div class="primero">
+                    <h2>Nombre(s):</h2>
+                    <h2>Auky Daniel</h2>
+                    <h2>Apellidos(s):</h2>
+                    <h2>Rodriguez Seit</h2>
+                </div>
+                <div class="segundo">
+                    <h2>Teléfono:</h2>
+                    <h2>+502 4889 6644</h2>
+                    <h2>Correo:</h2>
+                    <h2>arodriguez-2019473@kinal.edu.gt</h2>
+                </div>
+                <div class="tercero">
+                    <h2>Descripción:</h2>
+                    <h2>.</h2>
+                    <h2 class="espacio">.</h2>
+                    <button onclick="ocultar2();">Ocultar</button>
+                </div>
+            </div>
+            <div class="superior">
+                <img src="./../resource/luis.png">
+                <h1>Luis Armando</h1>
+                <div class="opciones">
+                    <button>Quitar de favoritos</button>
+                    <button onclick="mostrar3();">Información</button>
+                </div>
+            </div>
+            <div id="detalles3" class="detalles">
+                <div class="primero">
+                    <h2>Nombre(s):</h2>
+                    <h2>Luis Armando</h2>
+                    <h2>Apellidos(s):</h2>
+                    <h2>Reyes Oron</h2>
+                </div>
+                <div class="segundo">
+                    <h2>Teléfono:</h2>
+                    <h2>+502 4757 0661</h2>
+                    <h2>Correo:</h2>
+                    <h2>.</h2>
+                </div>
+                <div class="tercero">
+                    <h2>Descripción:</h2>
+                    <h2>.</h2>
+                    <h2 class="espacio">.</h2>
+                    <button onclick="ocultar3();">Ocultar</button>
+                </div>
+            </div>
+            <div class="superior">
+                <img src="./../resource/manuel.png">
+                <h1>José Manuel</h1>
+                <div class="opciones">
+                    <button>Quitar de favoritos</button>
+                    <button onclick="mostrar4();">Información</button>
+                </div>
+            </div>
+            <div id="detalles4" class="detalles">
+                <div class="primero">
+                    <h2>Nombre(s):</h2>
+                    <h2>José Manuel</h2>
+                    <h2>Apellidos(s):</h2>
+                    <h2>Suarez Serrano</h2>
+                </div>
+                <div class="segundo">
+                    <h2>Teléfono:</h2>
+                    <h2>+502 3467 9628</h2>
+                    <h2>Correo:</h2>
+                    <h2>.</h2>
+                </div>
+                <div class="tercero">
+                    <h2>Descripción:</h2>
+                    <h2>.</h2>
+                    <h2 class="espacio">.</h2>
+                    <button onclick="ocultar4();">Ocultar</button>
+                </div>
+            </div>
+    </section>
+    <footer class="paginas">
+        <div>
+            <a href="#">
+                <img src="./../resource/contactos.png">
+            </a>
+            <h1>Contactos</h1>
+        </div>
+        <div>
+            <a href="favorito.html">
+                <img src="./../resource/favorito.png">
+            </a>
+            <h1>Favoritos</h1>
+        </div>
+        <div>
+            <a href="nuevoContacto.html">
+                <img src="./../resource/agregar.png">
+            </a>
+            <h1>Agregar contacto</h1>
+        </div>
+        <div>
+            <a href="toDo.html">
+                <img src="./../resource/portapapeles.png">
+            </a>
+            <h1>Tareas</h1>
+        </div>
+        <div>
+            <a href="perfil.html">
+                <img src="./../resource/usuario.png">
+            </a>
+            <h1>Acerca de mi</h1>
+        </div>
+        <div>
+            <a href="./../index.html">
+                <img src="./../resource/salida.png">
+            </a>
+            <h1>Cerrar Sesion</h1>
+        </div>
+    </footer>
+    <script src="contacto.js"></script>
+</body>
+
+</html>
