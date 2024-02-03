@@ -1,0 +1,99 @@
+body {
+
+    background: radial-gradient(circle, rgba(255, 116, 15, 1) 0%, rgba(235, 193, 94, 1) 100%);
+    justify-content: space-around;
+}
+
+.encabezado{
+
+    background-color: #000;
+    box-shadow: 15px 15px 15px 1px rgba(0, 0, 0, 0.6);
+    border-radius: 25px;
+    margin: 60px;
+}
+
+.titulo {
+
+    margin: 35px;
+    margin-left: 0;
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+    align-items: center;
+}
+
+.perfil{
+    background-color: #000;
+    box-shadow: 15px 15px 15px 1px rgba(0, 0, 0, 0.6);
+    border-radius: 25px;
+    margin: 60px;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+}
+
+.foto img{
+    margin: 50px;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+.datos h1, .datos h2{
+    color: #fff;
+    background: rgba(59, 59, 59, 0.416);
+}
+
+.datos h1{
+    font-size: 30px;
+}
+
+.datos h2{
+    font-size: 30px;
+    padding-right: 15px;
+}
+
+.datos{
+    display: block;
+    justify-content: center;
+}
+
+.datos div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+}
+
+.ultimo{
+
+    padding-bottom: 50px;
+}
+
+.paginas {
+
+    background-color: #000;
+    box-shadow: 15px 15px 15px 1px rgba(0, 0, 0, 0.6);
+    border-radius: 25px;
+    margin: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.paginas h1{
+    color: #fff;
+    font-size: 25px;
+    margin-top: -10px;
+}
+
+.paginas img {
+    margin: 25px;
+    margin-left: 80px;
+    margin-right: 80px;
+}

@@ -1,0 +1,83 @@
+body {
+
+    background: radial-gradient(circle, rgba(255,116,15,1) 0%, rgba(235,193,94,1) 100%);
+    justify-content: space-around;
+}
+
+.sesion{
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    margin: 10%;
+}
+
+.login{
+    font-size: 40px;
+    color: #fff;
+    margin: 0;
+}
+
+.login img{
+
+    height: 150%;
+    width: 100px;
+}
+
+.descrip{
+    font-size: 25px;
+}
+
+.credenciales div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.credenciales h2{
+
+    margin-right: 25px;
+    margin-left: 0px;
+}
+
+.credenciales input{
+
+    width: 250px;
+    height: 25px;
+    background: rgba(0,0,0,0.1);
+    border-color: rgba(0,0,0,0.1);
+    font-size: 25px;
+    margin: 10px;
+}
+
+.validar{
+
+    padding: 30px;
+    
+}
+
+.validar button{
+    font-size: 25px;
+    width: 150px;
+    color: #fff;
+    background: rgba(0,0,0,0.1);
+    border-color: rgba(0,0,0,0.1);
+}
+
+.validar button:hover{
+    
+    background-color: #fff;
+}
+
+.validar a{
+
+    color: #fff;
+    text-decoration: none;
+}
+
+.validar a:hover{
+    
+    color: orangered;
+    text-decoration: none;
+}
