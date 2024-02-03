@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="short cut icon" href="./../resource/agenda.png" type="image/x-icon">
-    <link rel="stylesheet" href="toDo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="short cut icon" href="./../resource/agenda.png">
+    <link rel="stylesheet" href="toDo.css" />
     <title>Agenda:Tareas</title>
 </head>
 <body>
+    <section class="encabezado">
+        <div class="titulo">
+            <h1>Tareas:</h1>
+        </div>
+    </section>
+    <section class="container">
+        <div id="new-task">
+            <input type="text" placeholder="Crear una tarea..." />
+            <button id="push">Crear</button>
+        </div>
+    </section>
+    <section class="tareas">
+        <div id="tasks"></div>
+    </section>
     <footer class="paginas">
         <div>
             <a href="contacto.html">
@@ -28,7 +44,7 @@
             <h1>Agregar contacto</h1>
         </div>
         <div>
-            <a href="#">
+            <a href="">
                 <img src="./../resource/portapapeles.png">
             </a>
             <h1>Tareas</h1>
@@ -46,5 +62,7 @@
             <h1>Cerrar Sesion</h1>
         </div>
     </footer>
+    <script src="toDo.js"></script>
 </body>
+
 </html>
